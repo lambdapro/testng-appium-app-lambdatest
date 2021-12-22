@@ -1,0 +1,24 @@
+{
+  "server": "beta-hub.lambdatest.com/wd/hub",
+  "username": "",
+  "access_key": "",
+
+  "capabilities": {
+    "project": "First TestNg Android Project",
+    "build": "build-1",
+    "name": "first_test",
+    "visual": "True",
+    "console": "True",
+    "device": "True",
+    "isRealMobile": "True",
+    "app": "lt://APP100161621639746661105363"
+  },
+
+  "environments": [
+    {
+      "deviceName": "Galaxy Tab S4",
+      "platformName": "android",
+      "platformVersion": "10"
+    }
+  ]
+}

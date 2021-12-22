@@ -1,0 +1,29 @@
+{
+  "server": "beta-hub.lambdatest.com/wd/hub",
+  "username": "",
+  "access_key": "",
+
+  "capabilities": {
+    "project": "First TestNg Android Project",
+    "build": "Build Ankit",
+    "visual": "True",
+    "console": "True",
+    "isRealMobile": "True",
+    "app": "lt://APP100161621639746661105363"
+  },
+
+  "environments": [
+    {
+      "name": "Moto G9 Play",
+      "deviceName": "Moto G9 Play",
+      "platformName": "android",
+      "platformVersion": "10"
+    },
+    {
+      "name": "Huawei P30",
+      "deviceName": "Huawei P30",
+      "platformName": "android",
+      "platformVersion": "10"
+    }
+  ]
+}
