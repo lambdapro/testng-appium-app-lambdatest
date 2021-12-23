@@ -53,25 +53,21 @@ public class BaseTestNGTest {
         if(username == null) {
             username = (String) config.get("username");
         }
+        username=username.trim();
 
         String accessKey = System.getenv("LT_ACCESS_KEY");
         if(accessKey == null) {
             accessKey = (String) config.get("access_key");
         }
-
+        accessKey=accessKey.trim();
         String app = System.getenv("APP_ID");
         if(app != null && !app.isEmpty()) {
             capabilities.setCapability("app", app);
         }
-<<<<<<< HEAD
 
         capabilities.setCapability("build",System.getenv("LT_BUILD_NAME"));
 
-=======
-        
-        capabilities.setCapability("build",System.getenv("LT_BUILD_NAME"));
-        
->>>>>>> 3135171543f9626aeb5350e07bc4e201d21c4d7b
+
         threadLocalDriver.setTLDriver(new AndroidDriver<AndroidElement>(new URL("http://"+username+":"+accessKey+"@"+config.get("server")), capabilities));
         driver = threadLocalDriver.getTLDriver();
 
