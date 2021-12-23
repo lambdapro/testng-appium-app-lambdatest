@@ -50,12 +50,12 @@ public class BaseTestNGTest {
         }
 
         String username = System.getenv("LT_USERNAME");
-        if(username != null) {
+        if(username == null) {
             username = (String) config.get("username");
         }
 
         String accessKey = System.getenv("LT_ACCESS_KEY");
-        if(accessKey != null) {
+        if(accessKey == null) {
             accessKey = (String) config.get("access_key");
         }
 
