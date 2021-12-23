@@ -2,21 +2,15 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Parallel]" parallel="tests">
   <parameter name="deviceIndex" value="1"/>
-  <test thread-count="10" name="motorola" parallel="methods">
+  <test thread-count="2" name="motorola" parallel="methods">
     <parameter name="deviceIndex" value="0"/>
     <classes>
       <class name="com.lambdatest.run_parallel_test.ParallelTest"/>
-      <class name="com.lambdatest.run_parallel_test.ParallelTest"/>
-      <class name="com.lambdatest.run_parallel_test.ParallelTest"/>
-      <class name="com.lambdatest.run_parallel_test.ParallelTest"/>
     </classes>
   </test> <!-- motorola -->
-  <test thread-count="10" name="Huawei" parallel="methods">
+  <test thread-count="2" name="Huawei" parallel="methods">
     <parameter name="deviceIndex" value="1"/>
     <classes>
-      <class name="com.lambdatest.run_parallel_test.ParallelTest"/>
-      <class name="com.lambdatest.run_parallel_test.ParallelTest"/>
-      <class name="com.lambdatest.run_parallel_test.ParallelTest"/>
       <class name="com.lambdatest.run_parallel_test.ParallelTest"/>
     </classes>
   </test> <!-- Huawei -->

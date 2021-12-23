@@ -5,7 +5,6 @@
 
   "capabilities": {
     "project": "First TestNg Android Project",
-    "build": "Build Ankit",
     "visual": "True",
     "console": "True",
     "isRealMobile": "True",

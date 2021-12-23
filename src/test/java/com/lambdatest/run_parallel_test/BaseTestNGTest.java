@@ -63,6 +63,9 @@ public class BaseTestNGTest {
         if(app != null && !app.isEmpty()) {
             capabilities.setCapability("app", app);
         }
+
+        capabilities.setCapability("build",System.getenv("LT_BUILD_NAME"));
+
         threadLocalDriver.setTLDriver(new AndroidDriver<AndroidElement>(new URL("http://"+username+":"+accessKey+"@"+config.get("server")), capabilities));
         driver = threadLocalDriver.getTLDriver();
 

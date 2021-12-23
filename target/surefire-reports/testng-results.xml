@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Parallel" duration-ms="47847" started-at="2021-12-22T12:49:30Z" finished-at="2021-12-22T12:50:18Z">
+  <suite name="Parallel" duration-ms="113518" started-at="2021-12-23T11:09:36Z" finished-at="2021-12-23T11:11:29Z">
     <groups>
     </groups>
-    <test name="Huawei" duration-ms="40887" started-at="2021-12-22T12:49:30Z" finished-at="2021-12-22T12:50:11Z">
+    <test name="Huawei" duration-ms="43644" started-at="2021-12-23T11:09:36Z" finished-at="2021-12-23T11:10:19Z">
       <class name="com.lambdatest.run_parallel_test.ParallelTest">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.lambdatest.run_parallel_test.ParallelTest@12843fce]" name="setUp" is-config="true" duration-ms="21054" started-at="2021-12-22T18:19:30Z" finished-at="2021-12-22T18:19:51Z">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.lambdatest.run_parallel_test.ParallelTest@12843fce]" name="setUp" is-config="true" duration-ms="23248" started-at="2021-12-23T16:39:36Z" finished-at="2021-12-23T16:39:59Z">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.lambdatest.run_parallel_test.ParallelTest@12843fce]" name="setUp" is-config="true" duration-ms="28181" started-at="2021-12-22T18:19:30Z" finished-at="2021-12-22T18:19:58Z">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.lambdatest.run_parallel_test.ParallelTest@12843fce]" name="setUp" is-config="true" duration-ms="31228" started-at="2021-12-23T16:39:36Z" finished-at="2021-12-23T16:40:07Z">
           <params>
             <param index="0">
               <value>
@@ -29,27 +29,27 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="test2()[pri:0, instance:com.lambdatest.run_parallel_test.ParallelTest@12843fce]" name="test2" duration-ms="12247" started-at="2021-12-22T18:19:51Z" finished-at="2021-12-22T18:20:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test2 -->
-        <test-method status="PASS" signature="test1()[pri:0, instance:com.lambdatest.run_parallel_test.ParallelTest@12843fce]" name="test1" duration-ms="12470" started-at="2021-12-22T18:19:58Z" finished-at="2021-12-22T18:20:11Z">
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.lambdatest.run_parallel_test.ParallelTest@12843fce]" name="test1" duration-ms="12071" started-at="2021-12-23T16:39:59Z" finished-at="2021-12-23T16:40:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.lambdatest.run_parallel_test.ParallelTest@12843fce]" name="tearDown" is-config="true" duration-ms="211" started-at="2021-12-22T18:20:03Z" finished-at="2021-12-22T18:20:03Z">
+        <test-method status="PASS" signature="test2()[pri:0, instance:com.lambdatest.run_parallel_test.ParallelTest@12843fce]" name="test2" duration-ms="12193" started-at="2021-12-23T16:40:07Z" finished-at="2021-12-23T16:40:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.lambdatest.run_parallel_test.ParallelTest@12843fce]" name="tearDown" is-config="true" duration-ms="223" started-at="2021-12-23T16:40:11Z" finished-at="2021-12-23T16:40:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.lambdatest.run_parallel_test.ParallelTest@12843fce]" name="tearDown" is-config="true" duration-ms="223" started-at="2021-12-22T18:20:11Z" finished-at="2021-12-22T18:20:11Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.lambdatest.run_parallel_test.ParallelTest@12843fce]" name="tearDown" is-config="true" duration-ms="210" started-at="2021-12-23T16:40:19Z" finished-at="2021-12-23T16:40:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.lambdatest.run_parallel_test.ParallelTest -->
     </test> <!-- Huawei -->
-    <test name="motorola" duration-ms="47847" started-at="2021-12-22T12:49:30Z" finished-at="2021-12-22T12:50:18Z">
+    <test name="motorola" duration-ms="113518" started-at="2021-12-23T11:09:36Z" finished-at="2021-12-23T11:11:29Z">
       <class name="com.lambdatest.run_parallel_test.ParallelTest">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.lambdatest.run_parallel_test.ParallelTest@617c74e5]" name="setUp" is-config="true" duration-ms="33380" started-at="2021-12-22T18:19:30Z" finished-at="2021-12-22T18:20:03Z">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.lambdatest.run_parallel_test.ParallelTest@617c74e5]" name="setUp" is-config="true" duration-ms="100871" started-at="2021-12-23T16:39:36Z" finished-at="2021-12-23T16:41:17Z">
           <params>
             <param index="0">
               <value>
@@ -60,7 +60,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.lambdatest.run_parallel_test.ParallelTest@617c74e5]" name="setUp" is-config="true" duration-ms="30189" started-at="2021-12-22T18:19:30Z" finished-at="2021-12-22T18:20:00Z">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.lambdatest.run_parallel_test.ParallelTest@617c74e5]" name="setUp" is-config="true" duration-ms="31259" started-at="2021-12-23T16:39:36Z" finished-at="2021-12-23T16:40:07Z">
           <params>
             <param index="0">
               <value>
@@ -71,19 +71,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="test1()[pri:0, instance:com.lambdatest.run_parallel_test.ParallelTest@617c74e5]" name="test1" duration-ms="14336" started-at="2021-12-22T18:20:00Z" finished-at="2021-12-22T18:20:14Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="test2()[pri:0, instance:com.lambdatest.run_parallel_test.ParallelTest@617c74e5]" name="test2" duration-ms="14236" started-at="2021-12-22T18:20:03Z" finished-at="2021-12-22T18:20:18Z">
+        <test-method status="PASS" signature="test2()[pri:0, instance:com.lambdatest.run_parallel_test.ParallelTest@617c74e5]" name="test2" duration-ms="12942" started-at="2021-12-23T16:40:07Z" finished-at="2021-12-23T16:40:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.lambdatest.run_parallel_test.ParallelTest@617c74e5]" name="tearDown" is-config="true" duration-ms="215" started-at="2021-12-22T18:20:14Z" finished-at="2021-12-22T18:20:15Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.lambdatest.run_parallel_test.ParallelTest@617c74e5]" name="tearDown" is-config="true" duration-ms="215" started-at="2021-12-23T16:40:20Z" finished-at="2021-12-23T16:40:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.lambdatest.run_parallel_test.ParallelTest@617c74e5]" name="tearDown" is-config="true" duration-ms="218" started-at="2021-12-22T18:20:18Z" finished-at="2021-12-22T18:20:18Z">
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.lambdatest.run_parallel_test.ParallelTest@617c74e5]" name="test1" duration-ms="12426" started-at="2021-12-23T16:41:17Z" finished-at="2021-12-23T16:41:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.lambdatest.run_parallel_test.ParallelTest@617c74e5]" name="tearDown" is-config="true" duration-ms="206" started-at="2021-12-23T16:41:29Z" finished-at="2021-12-23T16:41:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
